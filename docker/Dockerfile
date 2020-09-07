@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/egc/decide.git .
+RUN git clone https://github.com/sardongui/egc20S02.git
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
